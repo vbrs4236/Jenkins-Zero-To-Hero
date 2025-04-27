@@ -64,7 +64,7 @@ install unzip in rootuser by the command install unzip
 unzip *
 chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-10.4.1.88267
 chmod -R 775 /home/sonarqube/sonarqube-10.4.1.88267
-cd /opt/sonarqube/bin/linux-x86-64
+cd sonarqube/bin/linux-x86-64
 ./sonar.sh start
 ```
 
